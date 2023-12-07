@@ -40,7 +40,7 @@ body {
     position: fixed;
     top: 0; 
     left: 0;
-    width: 100%; 
+     width: 100%;  
     padding: 2rem 9%;
     background: transparent;
     display: flex;
@@ -852,9 +852,16 @@ section {
     .home-imgHover img {
         visibility: hidden;
     }
+    .home-imgHover img {
+        visibility: hidden;
+    }
 }
 
-
+@media only screen and (max-width: 600px) {
+    .home-imgHover img {
+        display: none;
+    }
+}
 
 @media (max-width: 520px) { 
     html {
@@ -878,6 +885,7 @@ section {
     .home-imgHover img {
         visibility: hidden;
     }
+    
 };
 
 
